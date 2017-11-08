@@ -116,9 +116,9 @@ function moveDodger(e) {
   }
   switch(e.which*1){
 
-    case 37: moveDodgerLeft() ;
+    case 37: requestAnimationFrame(moveDodgerLeft() );
     break;
-    case 39: moveDodgerRight();
+    case 39: requestAnimationFrame(moveDodgerRight());
     break;
   }
   // implement me!
@@ -136,7 +136,7 @@ function moveDodgerLeft() {
   //let dodger=getElementById('dodger');
   //let coords=dodger.getBoudingClientRect();
   //coords.left+=5;
-   requestAnimationFrame(gameLoop);
+   
   // implement me!
   /**
    * This function should move DODGER to the left
