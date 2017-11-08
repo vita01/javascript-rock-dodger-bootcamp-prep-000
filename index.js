@@ -111,6 +111,16 @@ function endGame() {
 }
 
 function moveDodger(e) {
+  if((e.which)*1===37){
+    
+  }
+  cwitch(e){
+
+    case 37: moveDodgerLeft() ;
+    break;
+    case 39: moveDodgerRight();
+    break;
+  }
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
