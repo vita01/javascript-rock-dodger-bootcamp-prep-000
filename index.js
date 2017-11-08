@@ -112,7 +112,7 @@ function endGame() {
 
 function moveDodger(e) {
   if((e.which)*1===37){
-    
+
   }
   cwitch(e){
 
@@ -132,6 +132,10 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
+  let dodger=getElementById('dodger');
+  let coords=dodger.getBoudingClientRect();
+  coords.left+=5;
+   requestAnimationFrame(gameLoop);
   // implement me!
   /**
    * This function should move DODGER to the left
