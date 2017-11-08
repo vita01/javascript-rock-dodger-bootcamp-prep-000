@@ -132,9 +132,10 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  let dodger=getElementById('dodger');
-  let coords=dodger.getBoudingClientRect();
-  coords.left+=5;
+  console.log('ok')
+  //let dodger=getElementById('dodger');
+  //let coords=dodger.getBoudingClientRect();
+  //coords.left+=5;
    requestAnimationFrame(gameLoop);
   // implement me!
   /**
