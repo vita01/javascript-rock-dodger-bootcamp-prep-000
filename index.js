@@ -114,7 +114,7 @@ function moveDodger(e) {
   if((e.which)*1===37){
 
   }
-  switch(e){
+  switch(e.which*1){
 
     case 37: moveDodgerLeft() ;
     break;
